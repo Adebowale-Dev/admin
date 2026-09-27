@@ -40,3 +40,15 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Project-local data, dependencies and generated files
+**/node_modules/
+**/.env
+**/.env.local
+**/.env.*.local
+**/dist/
+**/.next/
+**/.expo/
+**/coverage/
+.local-data/
+*.log
